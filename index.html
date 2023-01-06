@@ -12,57 +12,127 @@
     </head>
     <body>
         <header>
-            <img src="Lucky-Shrub-logos/Asset 1@3x.png" height="200" />
+            <div>
+                <img src="Lucky-Shrub-logos/Asset 2@3x.png" height="200" />
+            </div>
         </header>
-        <nav>
+        <nav class="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Products</a></li>
-                <li><a href="index.html">Contact</a></li>
-                <li><a href="index.html">Info</a></li>
+
+                <div class="dropdown-list">
+                    <li><a href="products.html">Products</a></li>
+                    <div class="dropdown-item">
+                        <a href="indoor.html">Indoor Plants</a>
+                        <a href="outdoor.html">Outdoor Plants</a>
+                    </div>
+                </div>
+
+                <li><a href="kits.html">Plant Kits</a></li>
+
+                <div class="dropdown-list">
+                    <li><a href="services.html">Services</a></li>
+                    <div class="dropdown-item">
+                        <a href="garden.html">Garden Design</a>
+                        <a href="landscape.html">Landscape Design</a>
+                        <a href="gardening.html">Gardening</a>
+                    </div>
+                </div>
+
+                <div class="dropdown-list">
+                    <li><a href="about.html">About</a></li>
+                    <div class="dropdown-item">
+                        <a href="our-team.html">Meet the Team</a>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
             </ul>
         </nav>
         <main>
-            <section>
+            <section id="main-article">
                 <article>
-                    <h1>Article 1</h1>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Excepturi, impedit rerum? Dolor dolorem quam nobis
-                        iusto ipsam voluptatem assumenda, quis, beatae rerum
-                        ipsum, autem inventore quos commodi ea nesciunt maiores.
-                    </p>
+                    <img src="main-garden.jpeg" alt="Garden" />
+                    <h1>
+                        Transform your boring area into a source of delighting
+                        natural space
+                    </h1>
                 </article>
-			</section>
-			
-			<section>
-				<article>
-                    <h2>Article 2</h2>
+                <p>
+                    Every house is a unique space for each of you. Let us help
+                    you to think, discuss, and design a glorious but sustainable
+                    sanctuary, the place that you and your intimate family share
+                    the happiness among the greatness from nature.
+                </p>
+            </section>
+
+            <section>
+                <article class="post-summary">
+                    <a href="garden.html" style="text-decoration: none"
+                        ><h2>Garden Design</h2></a
+                    >
+                    <img src="garden.jpg" />
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Excepturi, impedit rerum? Dolor dolorem quam nobis
-                        iusto ipsam voluptatem assumenda, quis, beatae rerum
-                        ipsum, autem inventore quos commodi ea nesciunt maiores.
+                        Need some garden therapy? Schedule your 30-minute or
+                        60-minute coaching session with a designer today to
+                        troubleshoot those tricky spots in your garden. You'll
+                        get help planning the structure of your garden and
+                        general plant combinations that will thrive, look
+                        amazing, AND improve sustainability.
                     </p>
                 </article>
 
-				<article>
-                    <h2>Article 3</h2>
+                <article class="post-summary">
+                    <a href="landscape.html" style="text-decoration: none"
+                        ><h2>Landscape Design</h2></a
+                    >
+
+                    <img src="landscape.jpg" />
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Excepturi, impedit rerum? Dolor dolorem quam nobis
-                        iusto ipsam voluptatem assumenda, quis, beatae rerum
-                        ipsum, autem inventore quos commodi ea nesciunt maiores.
+                        Looking for a landscape that organizes your needs,
+                        goals, and dreams? Get started with a virtual landscape
+                        coaching session with a highly skilled landscape
+                        designer. You'll get a creative perspective on your
+                        landscape, some design ideas to consider, and valuable
+                        references, followed by a custom cost estimate if you
+                        want a design.
                     </p>
                 </article>
+
+                <article class="post-summary">
+                    <a href="gardening.html" style="text-decoration: none"
+                        ><h2>Gardening Services</h2></a
+                    >
+
+                    <img src="maintenance.jpg" />
+                    <p>
+                        One of the best ways to give your property a
+                        professional touch is with The Lucky Shrub's maintenance
+                        services. With healthy, fresh, and fragrant blooms, your
+                        family nest playground will become even more enjoyable
+                        and fulfilled The Lucky Shrub can help you maintain the
+                        beauty of your current garden or give it a whole new
+                        look.
+                    </p>
+                </article>
+            </section>
         </main>
         <footer>
-            <div>
-                <img src="Lucky-Shrub-logos/Asset 3@3x.png" height="200" />
+            <div class="small-logo">
+                <img src="Lucky-Shrub-logos/Asset 1@3x.png" />
             </div>
-            <div>
-                <p>Copyright Lucky Shrub</p>
+            <div id="quick-link">
+                <h2>Quick Links</h2>
+                <a href="term.html">Terms and Conditions</a>
+                <br />
+                <a href="policy.html">Privacy Policy</a>
+            </div>
+            <div id="contact">
+                <h2>Contact Us</h2>
+                <p>hello@luckyshrub.com</p>
             </div>
         </footer>
+        <div style="text-align: center; color: rgb(81, 110, 43)">
+            <p>Copyright © 2022 by Lucky Shrub</p>
+        </div>
     </body>
 </html>
